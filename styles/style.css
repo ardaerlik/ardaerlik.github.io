@@ -1,14 +1,39 @@
-#jumbotron {
-  border-radius: 10px;
-  border-color: #ff0000;
-  max-height: fit-content;
-  width: 100%;
-  height: max-content;
+body {
+  color: white;
+}
+
+a {
+  color: #ff0000;
+}
+
+a.navbar-brand {
+  color: #ff0000;
 }
 
 .navbar {
   opacity: 100%;
   backface-visibility: visible;
+  background-color: rgb(52, 52, 52);
+}
+
+.nav-link {
+  color: #ffffff;
+  
+}
+
+#main {
+  background-color: rgb(64, 64, 64);
+}
+
+#jumbotron {
+  max-width: 1900px;
+  width: 100%;
+  object-fit: 50%;
+  border-radius: 2em;
+}
+
+#streaks {
+  border-radius: 2em;
 }
 
 @media screen and (min-width: 991px) {
