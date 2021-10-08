@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /.well-known/
+Disallow: /well-known/
+
+Sitemap: https://www.ardaerlik.me/sitemap.xml
